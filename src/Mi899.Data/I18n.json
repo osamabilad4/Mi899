@@ -1,122 +1,38 @@
-﻿{
-  "En": {
-    "AboutPartialForm.lblAuthorCaption.Text": "Author:",
-    "AboutPartialForm.lblToolSet.Text": "X99 Tool Set",
-    "AboutPartialForm.lblVersionCaption.Text": "Version:",
-    "BiosesPartialForm.btnSearch.Text": "Apply",
-    "BiosesPartialForm.grdBioses.colChipsets.HeaderText": "Chipsets",
-    "BiosesPartialForm.grdBioses.colDescription.HeaderText": "Description",
-    "BiosesPartialForm.grdBioses.colFileName.HeaderText": "File path",
-    "BiosesPartialForm.grdBioses.colName.HeaderText": "Name",
-    "BiosesPartialForm.grdBioses.colProperties.HeaderText": "Properties",
-    "BiosesPartialForm.grdBioses.colTags.HeaderText": "Tags",
-    "BiosesPartialForm.lblSearch.Text": "Search:",
-    "MainForm.msiExit.Text": "E&xit",
-    "MainForm.msiExplore.Text": "&Explore",
-    "MainForm.msiExploreBioses.Text": "BIOS",
-    "MainForm.msiExploreMotherboards.Text": "Motherboards",
-    "MainForm.msiFile.Text": "&File",
-    "MainForm.msiFileReadMe.Text": "Read me!",
-    "MainForm.msiHelp.Text": "&Help",
-    "MainForm.msiHelpAbout.Text": "&About...",
-    "MainForm.msiHelpHowTo.Text": "How to",
-    "MainForm.msiHelpHowToRamTimings.Text": "Tighten RAM timings",
-    "MainForm.msiHelpHowToTurboUnlock.Text": "Unlock Turbo Boost",
-    "MainForm.msiHelpHowToUseCh341a.Text": "How to use CH341A BIOS Programmer",
-    "MainForm.Text": "Mi899 - X99 Tool Set",
-    "MainForm.tsslVersion.Text": "Mi899 Version 1.0.0 - Copyright © Miyconst",
-    "MotherboardPartialForm.grdBioses.colChipsets.HeaderText": "Chipsets",
-    "MotherboardPartialForm.grdBioses.colId.HeaderText": "Id",
-    "MotherboardPartialForm.grdBioses.colName.HeaderText": "Name",
-    "MotherboardPartialForm.grdBioses.colPath.HeaderText": "Path",
-    "MotherboardPartialForm.grdBioses.colProperties.HeaderText": "Properties",
-    "MotherboardPartialForm.grdImages.colImage.HeaderText": "Image",
-    "MotherboardPartialForm.grdImages.colPath.HeaderText": "Path",
-    "MotherboardPartialForm.grdLinks.colName.HeaderText": "Name",
-    "MotherboardPartialForm.grdLinks.colUrl.HeaderText": "URL",
-    "MotherboardPartialForm.lblBrand.Text": "Brand:",
-    "MotherboardPartialForm.lblDescription.Text": "Description:",
-    "MotherboardPartialForm.lblId.Text": "ID:",
-    "MotherboardPartialForm.lblModel.Text": "Model:",
-    "MotherboardPartialForm.lblName.Text": "Name:",
-    "MotherboardPartialForm.lblTags.Text": "Tags:",
-    "MotherboardPartialForm.lblTools.Text": "Tools:",
-    "MotherboardPartialForm.lblVersion.Text": "Version:",
-    "MotherboardsPartialForm.btnSearch.Text": "Apply",
-    "MotherboardsPartialForm.grdMotherboards.colDescription.HeaderText": "Description",
-    "MotherboardsPartialForm.grdMotherboards.colImage.HeaderText": "Image",
-    "MotherboardsPartialForm.grdMotherboards.colName.HeaderText": "Name",
-    "MotherboardsPartialForm.grdMotherboards.colSelect.Text": "Select",
-    "MotherboardsPartialForm.grdMotherboards.colTags.HeaderText": "Tags",
-    "MotherboardsPartialForm.grdMotherboards.colVersion.HeaderText": "Version",
-    "MotherboardsPartialForm.lblSearch.Text": "Search:",
-    "ReadMePartialForm.wbReadme.DocumentText": "README.md",
-    "ToolPartialForm.btnDump.Text": "Dump current BIOS",
-    "ToolPartialForm.btnFlash.Text": "Flash selected BIOS",
-    "ToolPartialForm.cbExecuteScript.Text": "Execute script",
-    "ToolPartialForm.lblBios.Text": "BIOS:",
-    "ToolPartialForm.lblMotherboard.Text": "Motherboard:",
-    "ToolPartialForm.lblTool.Text": "Tool:",
-    "ToolPartialForm.ToolPartialForm.txtReadme.Text": "# BIOS read and write \r\n\r\nOn this form, you can dump your current BIOS to create a backup or flash selected BIOS onto your motherboard.\r\n\r\n## Mi899:\r\n\r\n- Prepares files and scripts to simplify BIOS read/write process.\r\n- Copies the files and the scripts into a temp folder.\r\n- Opens the temp folder location.\r\n- Does NOT read or write your motherboard’s BIOS.\r\n- Does NOT validate the compatibility of your motherboard with the selected BIOS.\r\n- Does NOT validate the BIOS read/write the result.\r\n\r\n## Final warning:\r\n\r\nIf something goes wrong, you are the only one responsible for your actions. \r\n\r\n## Usage\r\n\r\n### To dump your current motherboard BIOS:\r\n\r\n- Click the `[Dump current BIOS]` button.\r\n- Wait until Mi899 opens a temp folder with prepared files.\r\n- Run the `dump.bat` script from the folder as administrator.\r\n\r\n### To flash a BIOS onto your motherboard:\r\n\r\n- Select the desired BIOS in the `BIOS` drop-down list located on the left side of the form.\r\n- Click the `[Flash selected BIOS]` button.\r\n- Wait until Mi899 opens a temp folder with prepared files.\r\n- Run the `flash.bat` script from the folder as administrator."
-  },
-  "Ua": {
-    "AboutPartialForm.lblAuthorCaption.Text": "Автор:",
-    "AboutPartialForm.lblToolSet.Text": "X99 Інструменти",
-    "AboutPartialForm.lblVersionCaption.Text": "Версія:",
-    "BiosesPartialForm.btnSearch.Text": "Шукати",
-    "BiosesPartialForm.grdBioses.colChipsets.HeaderText": "Chipsets",
-    "BiosesPartialForm.grdBioses.colDescription.HeaderText": "Опис",
-    "BiosesPartialForm.grdBioses.colFileName.HeaderText": "Шлях",
-    "BiosesPartialForm.grdBioses.colName.HeaderText": "Назва",
-    "BiosesPartialForm.grdBioses.colProperties.HeaderText": "Властивості",
-    "BiosesPartialForm.grdBioses.colTags.HeaderText": "Теги",
-    "BiosesPartialForm.lblSearch.Text": "Пошук:",
-    "MainForm.msiExit.Text": "Ви&хід",
-    "MainForm.msiExplore.Text": "&Переглянути",
-    "MainForm.msiExploreBioses.Text": "BIOS",
-    "MainForm.msiExploreMotherboards.Text": "Материнські плати",
-    "MainForm.msiFile.Text": "Ф&айл",
-    "MainForm.msiFileReadMe.Text": "Прочитай мене!",
-    "MainForm.msiHelp.Text": "&Допомога",
-    "MainForm.msiHelpAbout.Text": "&Про програму...",
-    "MainForm.msiHelpHowTo.Text": "Як виконати",
-    "MainForm.msiHelpHowToRamTimings.Text": "Налаштувати затримки ОЗП",
-    "MainForm.msiHelpHowToTurboUnlock.Text": "Unlock Turbo Boost",
-    "MainForm.msiHelpHowToUseCh341a.Text": "Використовувати CH341A BIOS программер",
-    "MainForm.Text": "Mi899 - X99 Інструменти",
-    "MainForm.tsslVersion.Text": "Mi899 Версія 1.0.0 - Авторське право © Miyconst",
-    "MotherboardPartialForm.grdBioses.colChipsets.HeaderText": "Чіпсети",
-    "MotherboardPartialForm.grdBioses.colId.HeaderText": "Id",
-    "MotherboardPartialForm.grdBioses.colName.HeaderText": "Назва",
-    "MotherboardPartialForm.grdBioses.colPath.HeaderText": "Шлях",
-    "MotherboardPartialForm.grdBioses.colProperties.HeaderText": "Властивості",
-    "MotherboardPartialForm.grdImages.colImage.HeaderText": "Малюнок",
-    "MotherboardPartialForm.grdImages.colPath.HeaderText": "Шлях",
-    "MotherboardPartialForm.grdLinks.colName.HeaderText": "Назва",
-    "MotherboardPartialForm.grdLinks.colUrl.HeaderText": "URL",
-    "MotherboardPartialForm.lblBrand.Text": "Бренд:",
-    "MotherboardPartialForm.lblDescription.Text": "Опис:",
-    "MotherboardPartialForm.lblId.Text": "ID:",
-    "MotherboardPartialForm.lblModel.Text": "Модель:",
-    "MotherboardPartialForm.lblName.Text": "Назва:",
-    "MotherboardPartialForm.lblTags.Text": "Теги:",
-    "MotherboardPartialForm.lblTools.Text": "Інструменти:",
-    "MotherboardPartialForm.lblVersion.Text": "Версія:",
-    "MotherboardsPartialForm.btnSearch.Text": "Шукати",
-    "MotherboardsPartialForm.grdMotherboards.colDescription.HeaderText": "Опис",
-    "MotherboardsPartialForm.grdMotherboards.colImage.HeaderText": "Малюнок",
-    "MotherboardsPartialForm.grdMotherboards.colName.HeaderText": "Назва",
-    "MotherboardsPartialForm.grdMotherboards.colSelect.Text": "Обрати",
-    "MotherboardsPartialForm.grdMotherboards.colTags.HeaderText": "Теги",
-    "MotherboardsPartialForm.grdMotherboards.colVersion.HeaderText": "Версія",
-    "MotherboardsPartialForm.lblSearch.Text": "Пошук:",
-    "ReadMePartialForm.wbReadme.DocumentText": "README.Ua.md",
-    "ToolPartialForm.btnDump.Text": "Зберегти поточний BIOS",
-    "ToolPartialForm.btnFlash.Text": "Прописати обраний BIOS",
-    "ToolPartialForm.cbExecuteScript.Text": "Виконати скрипт",
-    "ToolPartialForm.lblBios.Text": "BIOS:",
-    "ToolPartialForm.lblMotherboard.Text": "Материнська плата:",
-    "ToolPartialForm.lblTool.Text": "Інструмент:",
-    "ToolPartialForm.ToolPartialForm.txtReadme.Text": "# Зчитування та запис BIOS \r\n\r\nУ цій формі ви можете зберегти поточний BIOS, щоб створити резервну копію або прошити обраний BIOS на вашу материнську плату.\r\n\r\n## Mi899:\r\n\r\n- Готує файли та скрипти для спрощення процесу зчитування та запису BIOS.\r\n- Копіює необхідні файли та скрипти у тимчасову папку.\r\n- Відкриває розташування тимчасової папки.\r\n- НЕ читає і не пише BIOS вашої материнської плати.\r\n- НЕ перевіряє сумісність вашої материнської плати з обраним BIOS.\r\n- НЕ перевіряє результат зчитування або запису BIOS.\r\n\r\n## Остаточне попередження:\r\n\r\nЯкщо щось піде не так, саме ви будете відповідальними за ваші дії.\r\n\r\n## Використання\r\n\r\n### Створення резервної копії BIOS вашої материнської плати:\r\n\r\n- Натисніть кнопку `[Зберегти поточний BIOS]`.\r\n- Зачекайте, поки Mi899 відкриє тимчасову папку з підготовленими файлами.\r\n- Запустіть скрипт `dump.bat` з папки від імені адміністратора.\r\n\r\n### Прошивка BIOS на вашу материнську плату:\r\n\r\n- Оберіть бажаний BIOS у розкривному списку `BIOS`, який знаходиться в лівій частині форми.\r\n- Натисніть кнопку `[Прописати обраний BIOS]`.\r\n- Зачекайте, поки Mi899 відкриє тимчасову папку з підготовленими файлами.\r\n- Запустіть скрипт `flash.bat` з папки від імені адміністратора."
-  }
-}
+# Mi899 - X99 Tool Set
+
+------------
+
+**⚠️ AVISO ⚠️**:
+
+- ❗ Eu não me responsabilizo por qualquer consequência causado pelo uso desse aplicativo.
+- ❗ Você é responsavel por tudo que você fizer. Use esse aplicativo apenas se você souber o que está fazendo.
+- ❗ Ao dar flash em uma BIOS você pode acabar travando sua placa-mãe. O risco é seu.
+
+------------
+
+## Descrição
+
+Essa aplicação é designada para simplificar a vida de quem tem uma placa-mãe LGA 2011-3 X99 chinesa e coletar informações úteis sobre essas placas-mãe e suas compatibilidades de BIOS.
+
+## Contribuição
+
+❗ Eu sou o único que possui o direito sobre o projeto Mi899 .
+
+Se você gostaria de contribuir com o projeto você pode:
+
+- Providenciar uma tradução do aplicativo para outra língua. Estou de olho em traduções de Polish, Spanish, Italian, and Portuguese.
+- Adicionar informações sobre qualquer outra placa-mãe e modificações de BIOS.
+- Reportar bugs e problemas.
+- Me comprar uma cerveja ou um café me deixa motivado. [Donate with PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LXN9NNXVF34M8&source=url).
+
+### Como contribuir
+
+- Todas contribuições devem ser fornecidas na forma de [GitHub Pull Request](https://yangsu.github.io/pull-request-tutorial/#:~:text=What%20is%20a%20Pull%20Request,follow%2Dup%20commits%20if%20necessary.).
+- [Create a GitHub Issue](https://github.com/miyconst/Mi899) se você quer reportar algum bug ou dar uma sugestão.
+
+## Conecte-se comigo
+
+- [▶️ YouTube](https://www.youtube.com/c/Miyconst).
+- [📷 Instagram](https://www.instagram.com/mi8.se/).
+- [📜 GitHub](https://github.com/miyconst).
+- [🖊️ Blog](https://www.miyconst.com/).
